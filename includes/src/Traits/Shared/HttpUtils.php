@@ -131,7 +131,13 @@ trait HttpUtils
         if (($status = (string) $this->httpStatus())) {
             array_unshift($headers, $this->httpProtocol().' '.$status);
         }
-        return $this->applyWpFilters(MEGAOPTIM_RAPID_CACHE_GLOBAL_NS . '_cacheable_headers', $headers);
+        $headerList = $this->applyWpFilters(MEGAOPTIM_RAPID_CACHE_GLOBAL_NS . '_cacheable_headers', $headers);
+
+        foreach ($headerList as $headerName => $headerValue) {
+            $headerList[$headerName] = sanitize_text_field($headerValue);
+        }
+
+        return $headerList;
     }
 
     /**

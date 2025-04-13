@@ -262,7 +262,6 @@ trait ObUtils
         } else {
             ob_start([$this, 'outputBufferCallbackHandler']);
         }
-        return; // Return value not applicable.
     }
 
     /**
