@@ -3,7 +3,7 @@
         'name' => 'megaoptim/rapid-cache',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'ae5bb2847a016956f284fbe1b328d10ad58b7127',
+        'reference' => '147a5fa377395b59c5549d3729aaecd7604fbf3d',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'megaoptim/rapid-cache' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'ae5bb2847a016956f284fbe1b328d10ad58b7127',
+            'reference' => '147a5fa377395b59c5549d3729aaecd7604fbf3d',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

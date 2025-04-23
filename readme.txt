@@ -1,8 +1,8 @@
 === Rapid Cache ===
 
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 Requires at least: 4.2
-Tested up to: 6.6
+Tested up to: 6.8
 Text Domain: rapid-cache
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -236,6 +236,12 @@ Ordinarily you can just deactivate Rapid Cache from the plugins menu in WordPres
 Rapid Cache is now completely uninstalled and you can start fresh :-)
 
 == Changelog ==
+
+= 1.2.3 =
+*Release date - 13 Apr 2024*
+
+* Security improvements
+* Test with WordPress 6.8
 
 = 1.2.3 =
 *Release date - 25 Jul 2024*
