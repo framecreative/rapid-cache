@@ -2,7 +2,7 @@
     "name": "framecreative/rapid-cache",
     "description": "WordPress Caching Plugin",
     "type": "wordpress-plugin",
-    "license": "GPLv2",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "gdarko",
