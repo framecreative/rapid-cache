@@ -8,17 +8,5 @@
             "name": "gdarko",
             "email": "dg@darkog.com"
         }
-    ],
-    "autoload" : {
-        "psr-4" : {
-            "MegaOptim\\RapidCache\\": "includes/src/"
-        },
-        "files": [
-            "includes/utils/i18n.php",
-            "includes/utils/helpers.php"
-        ]
-    },
-    "config": {
-        "optimize-autoloader": true
-    }
+    ]
 }
