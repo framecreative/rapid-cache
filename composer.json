@@ -20,8 +20,5 @@
     },
     "config": {
         "optimize-autoloader": true
-    },
-    "require": {
-        "symfony/polyfill-mbstring": "1.18.*"
     }
 }
